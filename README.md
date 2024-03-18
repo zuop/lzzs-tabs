@@ -1,23 +1,24 @@
 # lzzs-tabs
 
-根据中国地区 code 获取地区对象、根据中国地区 code 获取地区名称
+element-ui 的 Tabs 组件
 
 ```sh
 npm install lzzs-tabs
 ```
 
 ```js
-import { findRegion, findRegionName } from "jz-region";
-```
+import Lzzs-Tabs from "lzzs-tabs";
 
-or all import
-
-```js
-import region from "jz-region";
+const tabs = ref([{
+  name: "标签1"
+},{
+  name: "标签1"
+}])
+const tabIndex = ref(0)
 ```
 
 ## example
 
-```js
-console.log(findRegion("110101"));
+```vue
+<Lzzs-Tabs v-model="tabIndex" :tabs="tabs"></Lzzs-Tabs>
 ```

@@ -1,6 +1,6 @@
 {
 	"name": "lzzs-tabs",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Tab标签页",
 	"main": "src/index.js",
 	"scripts": {
