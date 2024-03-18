@@ -1,0 +1,29 @@
+{
+	"name": "lzzs-tabs",
+	"version": "1.0.0",
+	"description": "Tab标签页",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zuop/lzzs-tabs.git"
+	},
+	"keywords": [
+		"tabs"
+	],
+	"author": "zuop",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zuop/lzzs-tabs/issues"
+	},
+	"homepage": "https://github.com/zuop/lzzs-tabs#readme",
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"moment": "^2.30.1",
+		"jz-region": "^1.0.3",
+		"jz-validate": "^1.0.2",
+		"element-plus": "^2.4.2"
+	}
+}
